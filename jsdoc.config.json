@@ -1,0 +1,22 @@
+{
+    "plugins": [],
+    "recurseDepth": 10,
+    "source": {
+      "include":["./dist"],
+      "includePattern":".(js)",
+      "excludePattern":".(d.ts)"
+    },
+    "sourceType": "module",
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc","closure"]
+    },
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false
+    },
+    "opts":{
+      "destination":"./docs",
+      "template":"./node_modules/braintree-jsdoc-template"
+    }
+}
