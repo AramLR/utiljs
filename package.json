@@ -1,7 +1,9 @@
 {
   "name": "@aramlr/utiljs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common utilities for javascript",
+  "type": "module",
+  "types": "./dist/index.d.ts",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
