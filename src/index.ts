@@ -6,9 +6,12 @@
  */
 function capitalize(str:string){
 
-  const result = str.charAt(0).toUpperCase() + str.substring(1).toLowerCase()
+  const firstChar = str.charAt(0).toUpperCase()
+  const remaining = str.slice(1).toLowerCase()
 
-  return result
+  const res = firstChar + remaining
+
+  return res
 }
 
 export {
